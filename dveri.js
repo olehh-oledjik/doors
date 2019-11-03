@@ -3,7 +3,7 @@ $(function () {
     var borderColor = 'rgb(255, 133, 98)';
     var $glass = $(); // jQuery объект с селекторами стёкол
     var $doorColor = $(); // jQuery объект с селекторами цвета
-    var github_url = 'https://olehmusihin.github.io/doors/'; // путь к папке где хранятся все изображения;
+    var github_url = 'https://olehh-oledjik.github.io/doors/'; // путь к папке где хранятся все изображения;
     var door = getDoorName();// название папки с дверью, берётся с картинки со страницы с #door=название, должно совпадать с названием папки где хранятся фотографии двери.
     var doorImg = getDoorSelector(); // селектор изображения двери.
     var color = '1'; // какой цвет двери будем искать;
